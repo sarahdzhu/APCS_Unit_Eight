@@ -23,16 +23,14 @@ public class ArrayCalculationsTests {
 //        assertEquals(-1, ArrayCalculations.rowSum(arr, -1));
 //    }
 //
-//    @Test
-//    public void rowSum() {
-//        assertEquals(23, ArrayCalculations.rowSum(arr, 1));
-//
-//    }
-//
-//    @Test
-//    public void columnSum() {
-//        assertEquals(190, ArrayCalculations.columnSum(arr2, 2));
-//    }
+    @Test
+  public void rowSum() {
+       assertEquals(23, ArrayCalculations.rowSum(arr, 1));
+    }
+
+    @Test
+    public void columnSum() {
+        assertEquals(190, ArrayCalculations.columnSum(arr2, 2));    }
 //
 //    @Test
 //    public void columnSumBadLow() {
